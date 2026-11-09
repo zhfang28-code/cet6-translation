@@ -1,0 +1,13 @@
+{
+  "name": "cet6-translation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "逐词 · 六级翻译：手机端真题精读与错词练习",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "build:data": "node tools/build-data.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node tools/check.mjs"
+  }
+}

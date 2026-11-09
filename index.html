@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#154e43" />
+    <meta
+      name="description"
+      content="最近六次六级翻译真题，完整学习译文、逐词中文、拼写练习与随身错词本。"
+    />
+    <title>逐词 · 六级翻译</title>
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到主要内容</a>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#library" aria-label="逐词首页"
+          ><span class="brand-icon">译</span
+          ><span>逐词<span class="brand-sub">CET-6 TRANSLATION</span></span></a
+        >
+        <div class="side-label">我的学习空间</div>
+        <nav class="desktop-nav" aria-label="主要导航"></nav>
+        <div class="side-note">
+          <span class="mini-spark">✳</span><strong>每一个词，都算数。</strong>
+          <p>把长句读懂，把生词留下。<br />每天一点，慢慢变熟悉。</p>
+        </div>
+        <div class="sidebar-footer">
+          <span class="status-dot"></span>学习记录保存在本机<a
+            href="https://github.com/zhfang28-code/cet6-translation"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          >
+        </div>
+      </aside>
+      <div class="workspace">
+        <header class="topbar">
+          <a class="mobile-brand" href="#library"
+            ><span class="brand-icon">译</span>逐词</a
+          >
+          <div class="breadcrumb">
+            学习空间 <span>/</span> <span id="page-label">真题库</span>
+          </div>
+          <div class="topbar-right">
+            <span class="edition">2023.12 — 2026.06</span
+            ><span class="avatar">词</span>
+          </div>
+        </header>
+        <main id="main" tabindex="-1">
+          <div class="loading">正在打开你的学习空间…</div>
+        </main>
+        <footer class="page-footer">
+          逐词 · 六级翻译 <span>一步一步，读懂每一句。</span>
+        </footer>
+      </div>
+    </div>
+    <nav class="bottom-nav" aria-label="手机导航"></nav>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="word-dialog" aria-labelledby="word-title"></dialog>
+    <noscript><p>请启用 JavaScript 以使用逐词释义、练习和错词本。</p></noscript>
+  </body>
+</html>
